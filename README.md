@@ -48,3 +48,14 @@ Projektsbeskrivning
   * Dataförbehandling: Utföra grundläggande dataanalys för att identifiera eventuella tomma värden och outliers, samt normalisera och skala data.
   * Modellval och Träning: Jag kommer börja med enkla modeller och gradvis övergå till mer avancerade tekniker om nödvändigt.
   * Utveckling och Utvärdering: Efter modellträning kommer jag att utvärdera modellen och försöka justera den för att förbättra noggrannheten. Målet är att slutföra en grundläggande version till slutgiltiga inlämningen.
+
+
+Motivering för valet av algoritmer och olika modeller för mitt projekt.
+
+För detta projektet valde jag att prova på linjär regression och ett tips jag läste om på nätet som kallas Random Forest som initiala modeller , samt en Deep Learning metod:
+
+Linjär regression : Valde jag för att det är hyffsat enkelt att implementera och ger en baslinje för att förstå linjära samband mellan variabler
+
+Random Forest : Använde jag då det ska var robust med möjlighet att överanpassa samtidigt som det hanterar icke linjäräa samband och funkar bra för både numeriska och kategoriska data vilket behöver hanteras i analysen av väder.
+
+Deep Learning : Med detta ville jag av neurala nätverk prova på att modellera lite mer komplexa , icke linjära relationer mellan funktioner , då detta kan vara användbart om dataset expanderas eller om man lägger till fler variabler.
